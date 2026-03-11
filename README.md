@@ -4,7 +4,7 @@ This service will return the number of entries in a database, either the total n
 
 This microservice uses ZeroMQ as it's communication pipeline
 
-#Request
+# Request
 1. Create a REQ socket
 2. Connect to a port
 3. Send a JSON request
@@ -33,7 +33,7 @@ Table: The name of the table you want to access
 Filters: Table attributes you want to filter by
 IMPORTANT: overall_statistics doesn't accept filters, and filtered_statistics requires filters
 
-#Recieve
+# Recieve
 1. Store response from socket
 2. Decode JSON response
 

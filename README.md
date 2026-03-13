@@ -57,7 +57,8 @@ socket.send(json.dumps(request).encode("utf-8))
     filtered_statistics: Returns the count of all entries in the table matching the filters\
     attribute_statistics: Returns the count of different attributes from a table\
 **Table:** The name of the table you want to access\
-**Filters:** Table attributes you want to filter by\
+**Filters:** Specific attribute to filter by\
+**Attribute:** Table attribute to count\
 **IMPORTANT:**\
     overall_statistics doesn't accept filters\
     filtered_statistics requires a filter\

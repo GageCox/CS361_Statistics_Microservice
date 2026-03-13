@@ -62,7 +62,7 @@ socket.send(json.dumps(request).encode("utf-8))
 **IMPORTANT:**\
     overall_statistics doesn't accept filters\
     filtered_statistics requires a filter\
-    attribute_statistics has optional filters\
+    attribute_statistics has optional filters
 
 # Recieve
 1. Store response from socket

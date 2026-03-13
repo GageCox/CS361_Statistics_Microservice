@@ -1,4 +1,4 @@
-# CS_361_Statistics_Microservice
+# CS361_Statistics_Microservice
 Statistics Microservice for CS361 project.
 This service will return the number of entries in a database, either the total number of entries in a table or the number of entries in a table that match filters.
 
